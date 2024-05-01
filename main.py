@@ -1,7 +1,12 @@
 import random
 
 
-def roll_dice(amount: int) -> list:
+def roll_dice(amount: int) -> list[int]:
+    """
+    Rolls a specified amount of dice.
+    :param amount: number of dice to rolling
+    :return: list of dice results
+    """
     if amount < 0:
         raise ValueError('Please enter a positive integer number.')
 
