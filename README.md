@@ -1,4 +1,7 @@
 # Dice Simulator - README
+## Description
+
+This program simulates rolling one or more dice. It allows users to generate random dice results, which can be used for games, probability experiments, or educational purposes.
 
 ## How to run this program in a container
 
